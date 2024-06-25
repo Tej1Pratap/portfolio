@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 42px;
+            background-color: rgb(58, 40, 76);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            color: azure;
+            margin: 0 23px;
+        }
+
+        nav ul li:hover {
+            color: rgb(218 160 226);
+           
+        }
+       
+       
+        
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+
+        }
+
+        .firstsection .rightsection {
+            width: 30%;
+        }
+
+        .leftsection {
+            margin: 12px 93px;
+            font-size: 44px;
+        }
+
+        .leftsection .btn {
+            border: 1px solid white;
+            background: rgb(51 46 55);
+            color: white;
+            border-radius: 3px;
+        }
+
+        .blue {
+            color: rgb(206, 87, 230);
+        }
+
+        .rightsection img {
+            width: 100%;
+
+        }
+
+        .rightsection div {}
+
+        #element {
+            color: rgb(206, 87, 230);
+        }
+
+
+
+        .secondsection {
+            margin-left: 9rem;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+            margin: auto;
+        }
+
+        .text-gray {
+            margin: 2px;
+            color: gray;
+        }
+
+        hr {
+            background-color: #00ff1b;
+            width: 92%;
+            height: 1px;
+            margin: 48px;
+        }
+
+        .secondsection .box {
+            background-color: aliceblue;
+            width: 78%;
+            height: 1px;
+            margin: 43px -11px;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 80px;
+            width: 1px;
+            background-color: aliceblue;
+            margin: 0 100px;
+        }
+
+        .image {
+            position: relative;
+            width: 31px;
+            top: -34px;
+            left: -15px
+        }
+
+        .vertical-text {
+            position: relative;
+            top: 32px;
+            font-size: 18px;
+        }
+
+        .vertical-word {
+            position: relative;
+            top: 36px;
+            color: gray;
+            width: 140px;
+            font-size: 10px;
+        }
+
+        footer {
+            background-color: rgb(19 19 52);
+            height: 25rem;
+        }
+
+        .footer {
+            display: block;
+            justify-content: space-evenly;
+            padding: 23px 20px;
+        }
+
+        footer .footer-first {
+            font-size: 20px;
+            margin-left: 6rem;
+        }
+
+        footer .footer-second {
+            font-size: 25px;
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        footer .footer-third {
+            text-align: center;
+            margin-top: 17rem;
+        }
+
+        .footer-second .phone {
+            position: absolute;
+            font-size: 13px;
+            margin-top: 3rem;
+            margin-left: 33rem;
+            text-decoration: underline;
+        }
+
+        .footer-second .mail {
+            font-size: 14px;
+            margin-top: 70px;
+            position: absolute;
+            margin-left: 33rem;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Tej portfolio</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi i am <span class="blue">Tej</span>
+                <div>A web developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Linedien</button>
+                </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="bg.jpg" alt="">
+            </div>
+        </section>
+
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What i am curretly doing</span>
+            <h1>present erpression</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image" src="web.png" alt="">
+                    <div class="vertical-text">
+                        HTML,CSS learner
+                    </div>
+                    <div class="vertical-word">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate laborum autem. Modi
+                        praesentium pariatur maiores! Commodi consectetur quia, excepturi distinctio qui ab?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image" src="web.png" alt="">
+                    <div class="vertical-text">
+                        HTML,CSS learner
+                    </div>
+                    <div class="vertical-word">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate laborum autem. Modi
+                        praesentium pariatur maiores! Commodi consectetur quia, excepturi distinctio qui ab?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image" src="web.png" alt="">
+                    <div class="vertical-text">
+                        HTML,CSS learner
+                    </div>
+                    <div class="vertical-word">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate laborum autem. Modi
+                        praesentium pariatur maiores! Commodi consectetur quia, excepturi distinctio qui ab?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image" src="web.png" alt="">
+                    <div class="vertical-text">
+                        HTML,CSS learner
+                    </div>
+                    <div class="vertical-word">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate laborum autem. Modi
+                        praesentium pariatur maiores! Commodi consectetur quia, excepturi distinctio qui ab?
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">Tej Pratap Developer</div>
+            <div class="footer-second">
+                Contact Info
+                <div class="phone">Mobile no.-9696430452</div>
+                <div class="mail">Gmail=Tejpratap11102@gmail.com</div>
+            </div>
+            <div class="footer-third">WWW.Tejpratap11102@gmail.com</div>
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['learning web developer', 'html,css'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
